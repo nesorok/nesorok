@@ -1,0 +1,16 @@
+* {
+    scrollbar-width: thin;
+}
+
+html {
+    height: 100svh;
+    scroll-behavior: smooth;
+}
+
+html,
+body,
+#app {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
